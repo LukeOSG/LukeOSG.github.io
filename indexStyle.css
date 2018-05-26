@@ -1,13 +1,13 @@
 
 body{
-	border-top: medium;
-	border-top-color: black;
+    border-top: medium;
+    border-top-color: black;
     width: 300px;
     height: 200px;
     background: #00B0FF;
     -webkit-animation: colourChanger 30s infinite; /* Chrome, Safari, Opera */
-    animation: colourChanger 20s infinite;
-	font-family: 'Roboto', sans-serif;
+    animation: colourChanger 30s infinite;
+    font-family: 'Roboto', sans-serif;
 }
 /*/ centering in css is so bad /*/
 #my-div {
