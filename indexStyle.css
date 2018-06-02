@@ -1,19 +1,15 @@
-
 body{
-	border-top: medium;
-	border-top-color: black;
+    border-top: medium;
+    border-top-color: black;
     width: 300px;
     height: 200px;
     background: #00B0FF;
     -webkit-animation: colourChanger 30s infinite; /* Chrome, Safari, Opera */
-    animation: colourChanger 20s infinite;
-	font-family: 'Roboto', sans-serif;
+    animation: colourChanger 30s infinite;
+    font-family: 'Roboto', sans-serif;
 }
-
-
 /*/ centering in css is so bad /*/
 #my-div {
-	
         position: fixed;
         width: 20%; /* Set your desired with */
         z-index: 2; /* Make sure its above other items. */
@@ -24,44 +20,6 @@ body{
 
       
 }
-
-#video{
-	font-size: 40px;
-	background-color:rgba(0, 0, 0, 0.1);
-	opacity: 1;
-	position: fixed;
-    bottom: 0;
-    right: 1;
-	border-top-right-radius: 20px;	
-	border-top-left-radius: 20px;
-	z-index:1;
-	display:none;
-}
-
-
-#hidden_video{
-	
-	display: visible;
-	font-size: 20px;
-	background-color:rgba(0, 0, 0, 0.1);
-	opacity: 1;
-	position: fixed;
-    bottom: 0;
-    right: 1;
-	border-top-right-radius: 10px;	
-	border-top-left-radius: 10px;	
-}
-
-.hidden_video{
-	
-	display: visible;
-}
-
-
-.video{
-	display:none;
-}
-
 
 .dropdown {
     position: relative;
