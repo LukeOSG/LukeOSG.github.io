@@ -85,7 +85,9 @@ body{
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    	display: block;
+	float:left;
+	
 }
 
 
@@ -157,7 +159,7 @@ a{
 	justify-content:center;
 	align-items:center;
 	padding:10px 10px;
-	width: 80%;
+	width: 90%;
 	margin: 10px;
 	text-decoration:none;
     	color: #424242;
